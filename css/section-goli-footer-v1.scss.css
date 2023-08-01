@@ -1,0 +1,189 @@
+.main-footer {
+    background-color: #096c2e;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.main-footer h5 {
+    font-weight: bold;
+}
+
+.main-footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-footer .immuneti-logo {
+    font-size: 3em;
+    font-weight: 900;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main-footer .footer-list li>a,
+.main-footer .footer-list .dropdown-item {
+    font-size: 14px;
+}
+
+.main-footer .immuneti-logo sup {
+    top: -1em;
+    font-size: 0.3em;
+}
+
+.main-footer .social li {
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    background-color: white;
+}
+
+.main-footer .social li i {
+    font-size: 25px;
+    color: #09278d;
+}
+
+.main-footer .copyright,
+.main-footer .disclaimer {
+    font-size: .8rem;
+}
+
+.main-footer .icon-link>i {
+    vertical-align: middle;
+}
+
+.main-footer .icon-link:hover {
+    text-decoration: none;
+}
+
+.main-footer a .fab {
+    color: #096c2e;
+}
+
+.main-footer {
+    font-size: 1.1rem;
+    line-height: 2;
+}
+
+.main-footer h5 {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.main-footer p {
+    line-height: 1.64;
+}
+
+.main-footer .footer-list li>a,
+.main-footer .footer-list .dropdown-item {
+    color: white;
+    text-decoration: none;
+}
+
+.main-footer .footer-list li>a:hover,
+.main-footer .footer-list .dropdown-item:hover {
+    color: #f5b43b;
+    text-decoration: none;
+}
+
+.main-footer .footer-list .dropdown-menu {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.main-footer .footer-list .dropdown-menu>a:first-child {
+    padding-top: 8px;
+}
+
+.main-footer .footer-list .dropdown-menu>a:last-child {
+    padding-bottom: 8px;
+}
+
+.main-footer .footer-list .dropdown-item:active {
+    background-color: #EEF0F2;
+}
+
+.main-footer .disclaimer {
+    font-size: 12px;
+    line-height: 1;
+    padding: 0 15em;
+}
+
+.main-footer ul.footer-list-social li {
+    display: inline-block;
+    font-size: 1.45rem;
+    line-height: 1.4;
+    color: #09278d;
+    background-color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.main-footer .why-we-do-it-holder p:last-of-type {
+    margin-bottom: 0;
+}
+
+.main-footer .why-we-do-it-holder b {
+    font-size: 18px;
+}
+
+.main-footer .ptpa-seal-holder {
+    width: 222px;
+    max-width: 100%;
+    padding: 37px;
+}
+
+.main-footer .ptpa-seal {
+    width: 148px;
+}
+
+@media (max-width: 767px) {
+    .main-footer,
+    .main-footer .footer-list .dropdown-item {
+        font-size: 1em;
+    }
+    .main-footer ul.footer-list-social li {
+        display: inline-block;
+    }
+    .main-footer ul.footer-list-social li:not(:first-child) {
+        margin-left: 20px;
+    }
+    .main-footer .disclaimer {
+        padding: unset;
+    }
+}
+
+@media (min-width: 992px) {
+    .main-footer ul.footer-list-social li {
+        display: inherit;
+        margin: auto;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 575px) {
+    .main-footer p {
+        line-height: 1.4;
+    }
+    .main-footer,
+    .main-footer .footer-list .dropdown-item {
+        font-size: .8em;
+        line-height: 1.3rem;
+    }
+    .main-footer ul.footer-list-social li {
+        font-size: 1.8em;
+    }
+    .main-footer .flogo {
+        width: 150px;
+    }
+}
+
+@media (max-width: 320px) {
+    .main-footer .main-footer-container {
+        padding: 0;
+    }
+}

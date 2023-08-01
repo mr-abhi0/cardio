@@ -1,0 +1,166 @@
+/* Custom Global CSS */
+body {
+  font-family: 'Gilroy', 'sans-serif'; }
+
+.font-underline {
+  text-decoration: underline !important; }
+
+.text-black {
+  color: #000000; }
+
+.text-red {
+  color: #FF0000; }
+
+a.text-black:focus,
+a.text-black:hover {
+  color: #121416; }
+
+.cursor-pointer:hover {
+  cursor: pointer; }
+
+.row-compact {
+  padding: 0;
+  margin: 0; }
+
+.container-fix-x-padding {
+  padding: 0; }
+
+.goli-black-btn {
+  background-color: black;
+  color: white !important;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 0px;
+  font-size: 1.3em;
+  padding-top: 13px;
+  padding-bottom: 13px; }
+
+.btn-marine {
+  color: #FFFFFF;
+  border-color: #427586;
+  background-color: #427586; }
+
+.btn-marine:hover {
+  color: #FFFFFF;
+  border-color: #488295;
+  background-color: #488295; }
+
+.btn-marine:not(:disabled):not(.disabled).active,
+.btn-marine:not(:disabled):not(.disabled):active,
+.show > .btn-marine.dropdown-toggle {
+  color: #FFFFFF;
+  border-color: #43798B;
+  background-color: #488295; }
+
+.btn-marine.focus,
+.btn-marine:focus {
+  box-shadow: 0 0 0 0.15rem rgba(66, 117, 134, 0.5); }
+
+.btn-marine:not(:disabled):not(.disabled).active,
+.btn-marine:not(:disabled):not(.disabled):active,
+.show > .btn-marine.dropdown-toggle {
+  color: #FFFFFF;
+  border-color: #488295;
+  background-color: #488295; }
+
+.btn-marine:not(:disabled):not(.disabled).active:focus,
+.btn-marine:not(:disabled):not(.disabled):active:focus,
+.show > .btn-marine.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.15rem rgba(66, 117, 134, 0.5); }
+
+.btn-deepblue {
+  color: #FFFFFF;
+  border-color: #2E5BA5;
+  background-color: #2E5BA5; }
+
+.btn-deepblue:hover {
+  color: #FFFFFF;
+  border-color: #2B5498;
+  background-color: #2B5498; }
+
+.btn-deepblue:not(:disabled):not(.disabled).active,
+.btn-deepblue:not(:disabled):not(.disabled):active,
+.show > .btn-deepblue.dropdown-toggle {
+  color: #FFFFFF;
+  border-color: #2D5DA2;
+  background-color: #2B5498; }
+
+.btn-deepblue.focus,
+.btn-deepblue:focus {
+  box-shadow: 0 0 0 0.15rem rgba(46, 91, 165, 0.5); }
+
+.btn-deepblue:not(:disabled):not(.disabled).active,
+.btn-deepblue:not(:disabled):not(.disabled):active,
+.show > .btn-deepblue.dropdown-toggle {
+  color: #FFFFFF;
+  border-color: #2B5498;
+  background-color: #2B5498; }
+
+.btn-deepblue:not(:disabled):not(.disabled).active:focus,
+.btn-deepblue:not(:disabled):not(.disabled):active:focus,
+.show > .btn-deepblue.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.15rem rgba(46, 91, 165, 0.5); }
+
+.text-deepblue {
+  color: #096c2e; }
+
+.text-goli-red {
+  color: #D7282F; }
+
+.border-goli-red,
+.border-goli-red:focus,
+.input-group.input-group-merge > .border-goli-red.form-control:focus ~ [class*=input-group] > .input-group-text {
+  border-color: #D7282F; }
+
+.link-goli-red {
+  color: #D7282F; }
+
+.link-goli-red:hover {
+  color: #EF3D4A; }
+
+.bg-goli-red {
+  background-color: #D7282F; }
+
+.btn-goli-red {
+  color: #FFFFFF;
+  border-color: #D02732;
+  background-color: #D02732; }
+
+.btn-goli-red:hover {
+  color: #FFFFFF;
+  border-color: #DB1120;
+  background-color: #E01222; }
+
+.btn-goli-red:not(:disabled):not(.disabled).active,
+.btn-goli-red:not(:disabled):not(.disabled):active,
+.show > .btn-goli-red.dropdown-toggle {
+  color: #FFFFFF;
+  border-color: #C7101E;
+  background-color: #DB1120; }
+
+.btn-goli-red.focus,
+.btn-goli-red:focus {
+  box-shadow: 0 0 0 0.15rem rgba(208, 39, 50, 0.5); }
+
+.btn-goli-red:not(:disabled):not(.disabled).active,
+.btn-goli-red:not(:disabled):not(.disabled):active,
+.show > .btn-goli-red.dropdown-toggle {
+  color: #FFFFFF;
+  border-color: #C7101E;
+  background-color: #DB1120; }
+
+.btn-goli-red:not(:disabled):not(.disabled).active:focus,
+.btn-goli-red:not(:disabled):not(.disabled):active:focus,
+.show > .btn-goli-red.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.15rem rgba(208, 39, 50, 0.5); }
+
+.shopify-challenge__container {
+  padding-top: 80px;
+  padding-bottom: 100px; }
+
+.shopify-challenge__button {
+  border-color: rgba(33, 37, 41, 0.5); }
+
+@media (max-width: 767px) {
+  .shopify-challenge__container {
+    padding-bottom: 50px; } }
